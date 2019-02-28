@@ -17,7 +17,7 @@ const buttonStyle = {
 
 function Square(props) {
   return (
-    <button style={buttonStyle} className="square" onClick={props.onClick}>
+    <button style={buttonStyle} className='square' onClick={props.onClick}>
       {props.value}
     </button>
   );
